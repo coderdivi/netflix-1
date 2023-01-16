@@ -1,5 +1,5 @@
    
-   document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'))
+
    let accordion = document.getElementsByClassName("faq-page");
 const totalAccordions = accordion.length;
 
@@ -24,3 +24,5 @@ const closeAllExcept = (pan) => {
     }
   }
 }
+
+document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'))
